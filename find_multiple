@@ -1,0 +1,10 @@
+num = 0
+
+for fives in range(1,1000):
+        if (fives % 3 ==0 ) and (fives % 5 ==0 ):
+            print(fives)
+            num += 1   
+        if num == 5:
+            break
+        
+print("완료")
